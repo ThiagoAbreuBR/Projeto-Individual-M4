@@ -22,7 +22,7 @@
 
 - **Como essas entidades estão relacionadas?**
 
-- Facilitador (1,n) <<<< Possui >>>> (1,n) Turmas. No modelo relacional a entidade Facilitador recebe chave estrangeira da entidade Turmas e Turmas recebe chaves entrangeiras de Facilitador. OBS: No modelo físico outra entidade é criada na qual irá receber a chaves estrangeiras de Facilitador e Turmas.
+- Facilitador (1,n) <<<< Possui >>>> (1,n) Turmas. No modelo relacional a entidade Facilitador recebe chave estrangeira da entidade Turmas e Turmas recebe chaves entrangeiras de Facilitador. No modelo físico uma outra entidade é criada na qual irá receber como chave estrangeiras as chaves primária de Facilitador e Turmas.
 
 - Cursos (1,1) <<<< Possuem >>>> (1,n) Facilitador. No modelo relacional e físico a entidade Facilitador irá receber como chave estrangeira a chave primária de Cursos.
 
