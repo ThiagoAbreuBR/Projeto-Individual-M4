@@ -1,7 +1,7 @@
 # Projeto-Individual-M4
 
 - **Existem outras entidades além dessas três?**
-- Sim, são elas entidade FACILITADOR e INSTITUIÇÃO.
+Sim, são elas entidade FACILITADOR e INSTITUIÇÃO.
 
 - **Quais são os principais campos e tipos?**
 
