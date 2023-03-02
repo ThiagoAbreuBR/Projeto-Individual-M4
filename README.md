@@ -4,7 +4,7 @@
 - Sim, são elas entidade FACILITADOR e INSTITUIÇÃO.
 
 - **Quais são os principais campos e tipos?**
-- 
+
 - Facilitador 
 - cod_facilitador(INT PRIMARY KEY), cpf(VARCHAR), nome(VARCHAR), gênero(VARCHAR), email(VARCHAR), formação(VARCHAR).
 
