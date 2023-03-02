@@ -22,12 +22,12 @@
 
 - **Como essas entidades estão relacionadas?**
 
-```Facilitador (1,n) <<<< Possui >>>> (1,n) Turmas.``` No modelo relacional a entidade Facilitador recebe chave estrangeira da entidade Turmas e Turmas recebe chaves entrangeiras de Facilitador. No modelo físico uma outra entidade é criada na qual irá receber como chave estrangeiras as chaves primária de Facilitador e Turmas.
+```Facilitador (1,n) <<<< Possui >>>> (1,n) Turmas.``` No modelo relacional a entidade Facilitador irá receber como chave estrangeira a chave primária de Turmas e Turmas irá receber como chave chaves entrangeira a chave primária de Facilitador. No modelo físico uma outra entidade é criada na qual irá receber como chave estrangeiras as chaves primária de Facilitador e Turmas.
 
-- Cursos (1,1) <<<< Possuem >>>> (1,n) Facilitador. No modelo relacional e físico a entidade Facilitador irá receber como chave estrangeira a chave primária de Cursos.
+```Cursos (1,1) <<<< Possuem >>>> (1,n) Facilitador```. No modelo relacional e físico a entidade Facilitador irá receber como chave estrangeira a chave primária de Cursos.
 
-- Cursos (1,1) <<<< Tem >>>> (1,n) Turmas. No modelo relacional e físico a entidade Turmas irá receber como chave estrangeira a chave primária de Cursos.
+```Cursos (1,1) <<<< Tem >>>> (1,n) Turmas.``` No modelo relacional e físico a entidade Turmas irá receber como chave estrangeira a chave primária de Cursos.
 
-- Cursos (1,n) <<<< Cursam >>>> (1,1) Alunos. No modelo relacional e físico a entidade Alunos irá receber como chave estrangeira a chave primária de Cursos.
+```Alunos (1,1) <<<< Cursam >>>> (1,n) Cursos.``` No modelo relacional e físico a entidade Alunos irá receber como chave estrangeira a chave primária de Cursos.
 
-- Instituição (1,1) <<<< Disponibiliza >>>> (1,n) Cursos. No modelo relacional e físico a entidade Cursos irá receber como chave estrangeira a chave primária de Instituição.
+```Instituição (1,1) <<<< Disponibiliza >>>> (1,n) Cursos.``` No modelo relacional e físico a entidade Cursos irá receber como chave estrangeira a chave primária de Instituição.
