@@ -16,11 +16,18 @@
 
 - Instituição
 - cod_instituicao(INT PRIMARY KEY), cnpj(VARCHAR), razão_social(VARCHAR), endereço(VARCHAR).
-- 
+
 - Alunos 
 - matricula(INT PRIMARY KEY), cpf(VARCHAR), nome(VARCHAR), data_nascimento(DATE), gênero(VARCHAR), email(VARCHAR).
 
 - **Como essas entidades estão relacionadas?**
 
+- Facilitador (1,n) <<<< Possui >>>> (1,n) Turmas.No modelo relacional a entidade Facilitador recebe chave estrangeira da entidade Turmas e Turmas recebe chaves entrangeiras de Facilitador. OBS: No modelo físico outra entidade é criada na qual irá receber a chaves estrangeiras de Facilitador e Turmas.
 
-cod_cursos
+- Cursos (1,1) <<<< Possuem >>>> (1,n) Facilitador. No modelo relacional e físico a entidade Facilitador irá receber como chave estrangeira a chave primária de Cursos.
+
+- Cursos (1,1) <<<< Tem >>>> (1,n) Turmas. No modelo relacional e físco a entidade Turmas irá receber como chave estrangeira a chave primária de Cursos.
+
+- Cursos (1,n) <<<< Cursam >>>> (1,1) Alunos. No modelo relacional e físico a entidade Alunos irá receber como chave estrangeira a chave primária de Cursos.
+
+- Instituição (1,1) <<<< Disponibiliza >>>> (1,n) Cursos. No modelo relacional e físico a entidade Cursos irá receber como chave estrangeira a chave primária de Instituição.
