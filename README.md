@@ -27,8 +27,9 @@
 ```Cursos (1,1) <<<< Possuem >>>> (1,n) Facilitador```. No modelo relacional e físico a entidade Facilitador irá receber como chave estrangeira a chave primária de Cursos.
 
 ```Cursos (1,1) <<<< Tem >>>> (1,n) Turmas.``` No modelo relacional e físico a entidade Turmas irá receber como chave estrangeira a chave primária de Cursos.
-![ProjetoIndividualM4](https://user-images.githubusercontent.com/116724740/222546776-8bade13e-f0e4-4e9c-bd62-86a0e784ad0a.png)
 
 ```Alunos (1,1) <<<< Cursam >>>> (1,n) Cursos.``` No modelo relacional e físico a entidade Alunos irá receber como chave estrangeira a chave primária de Cursos.
 
 ```Instituição (1,1) <<<< Disponibiliza >>>> (1,n) Cursos.``` No modelo relacional e físico a entidade Cursos irá receber como chave estrangeira a chave primária de Instituição.
+
+![ProjetoIndividualM4](https://user-images.githubusercontent.com/116724740/222546776-8bade13e-f0e4-4e9c-bd62-86a0e784ad0a.png)
