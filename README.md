@@ -12,7 +12,7 @@ Sim, são elas entidade FACILITADOR e INSTITUIÇÃO.
 ```cod_cursos(INT PRIMARY KEY), nome_curso(VARCHAR), descrição(VARCHAR), duração(VARCHAR), modo_ensino(VARCHAR).```
 
 **Turmas:**
-``` cod_turmas(INT PRIMARY KEY), num_turma(INT), sala(INT), período(VARCHAR), data_inicio(DATE), data_termino(DATE).```
+``` cod_turmas(INT PRIMARY KEY), num_turma(VARCHAR), sala(VARCHAR), período(VARCHAR), data_inicio(DATE), data_termino(DATE).```
 
 **Instituição:**
 ```cod_instituicao(INT PRIMARY KEY), cnpj(VARCHAR), razão_social(VARCHAR), endereço(VARCHAR).```
