@@ -32,4 +32,5 @@ Sim, são elas entidade FACILITADOR e INSTITUIÇÃO.
 
 ```Instituição (1,1) <<<< Disponibiliza >>>> (1,n) Cursos.``` No modelo relacional e físico a entidade Cursos irá receber como chave estrangeira a chave primária de Instituição.
 
-![ProjetoIndividualM4](https://user-images.githubusercontent.com/116724740/222546776-8bade13e-f0e4-4e9c-bd62-86a0e784ad0a.png)
+![ProjetoIndividualM4](https://user-images.githubusercontent.com/116724740/222829104-36e3cd6f-28b8-4ed0-b06f-96de6c5093c1.png)
+
